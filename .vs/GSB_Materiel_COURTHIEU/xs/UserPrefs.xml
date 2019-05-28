@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{D06FE7D5-8863-4A35-BF06-88ECCF3C6CA9}|Default">
+  <MonoDevelop.Ide.ItemProperties.GSB__Materiel__COURTHIEU PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="GSB_Materiel_LAFAGE/Bd.cs">
+    <Files>
+      <File FileName="GSB_Materiel_LAFAGE/Accueil_Tech.cs" Line="1" Column="1" />
+      <File FileName="GSB_Materiel_LAFAGE/Bd.cs" Line="27" Column="72" />
+      <File FileName="GSB_Materiel_LAFAGE/Program.cs" Line="19" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GSB_Materiel_COURTHIEU" expanded="True">
+            <Node name="GSB_Materiel_COURTHIEU" expanded="True">
+              <Node name="Bd.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

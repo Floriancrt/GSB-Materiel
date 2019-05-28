@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSB_Materiel_LAFAGE", "GSB_Materiel_LAFAGE\GSB_Materiel_LAFAGE.csproj", "{D06FE7D5-8863-4A35-BF06-88ECCF3C6CA9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSB_Materiel_COURTHIEU", "GSB_Materiel_LAFAGE\GSB_Materiel_COURTHIEU.csproj", "{D06FE7D5-8863-4A35-BF06-88ECCF3C6CA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
