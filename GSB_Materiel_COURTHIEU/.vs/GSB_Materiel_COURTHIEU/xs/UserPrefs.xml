@@ -1,10 +1,17 @@
-﻿<Properties>
+﻿<Properties StartupConfiguration="{D06FE7D5-8863-4A35-BF06-88ECCF3C6CA9}|Default">
   <MonoDevelop.Ide.ItemProperties.GSB__Materiel__COURTHIEU PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Bd.cs">
+    <Files>
+      <File FileName="Bd.cs" Line="40" Column="72" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="GSB_Materiel_COURTHIEU" expanded="True" selected="True" />
+          <Node name="GSB_Materiel_COURTHIEU" expanded="True">
+            <Node name="GSB_Materiel_COURTHIEU" expanded="True">
+              <Node name="Bd.cs" selected="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>

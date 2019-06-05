@@ -85,7 +85,7 @@ namespace GSB_Materiel_LAFAGE
             conn.Open();
 
             // On récupère le résultat de la requête + on l'intègre dans le DataSet
-            adapter.SelectCommand = new MySqlCommand("Select matricule, nom, prenom, date_embauche, mdp, adresse, objectif, avantages, prime, budget from personnel, visiteur where visiteur.id_visit = personnel.matricule", conn);
+            adapter.SelectCommand = new MySqlCommand("CALL infos_visit();", conn);
             adapter.Fill(ds);
 
             // On relie le résultat à la dataGridView donnée en paramètre
@@ -105,7 +105,7 @@ namespace GSB_Materiel_LAFAGE
             conn.Open();
 
             // On récupère le résultat de la requête + on l'intègre dans le DataSet
-            adapter.SelectCommand = new MySqlCommand("Select matricule, nom, prenom, date_embauche, mdp, formation, intervention, competences from personnel, technicien where technicien.id_tech = personnel.matricule", conn);
+            adapter.SelectCommand = new MySqlCommand("CALL infos_tech();", conn);
             adapter.Fill(ds);
 
             // On relie le résultat à la dataGridView donnée en paramètre
@@ -147,8 +147,7 @@ namespace GSB_Materiel_LAFAGE
             conn.Open();
 
             MySqlCommand cmd1 = conn.CreateCommand();
-            cmd1.CommandText = "Select matricule, nom, prenom, date_embauche, mdp, formation, intervention, competences " +
-                "from personnel, technicien where technicien.id_tech = personnel.matricule";
+            cmd1.CommandText = "CALL select_visit();";
 
             MySqlDataReader dataReader = cmd1.ExecuteReader();
             while (dataReader.Read())
